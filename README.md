@@ -61,7 +61,7 @@ cd sql
 
 ---
 
-Project00003/
+Project00008/
 ├── sql/        # SQL scripts (schema, inserts, queries)
 ├── docs/       # Documentation, ERD diagrams, notes
 ├── data/       # Sample datasets (CSV or other formats)
@@ -73,18 +73,18 @@ Project00003/
 ## ⚙️ Setup Instructions
 1. Clone the repository:
 
-git clone https://github.com/jrhcorp2023Git/Project00003.git
-cd Project00003
+git clone https://github.com/jrhcorp2023Git/Project00008.git
+cd Project00008
 
 2. 	Open SQLite or your preferred SQL client.
 
 3. 	Run the schema file:
 
-sqlite3 project00003.db < sql/schema.sql
+sqlite3 project00008.db < sql/schema.sql
 
 4. 	Load sample data:
 
-sqlite3 project00003.db < sql/data_inserts.sql
+sqlite3 project00008.db < sql/data_inserts.sql
 
 5. 	Execute queries from:
 
@@ -160,58 +160,21 @@ Contributions are welcome!
 ---
 
 ## Usage Examples
-sqlite> .read "C:/Users/jrhma/OneDrive/Documents/sqlite/Project00003/sql/queries.sql"
+sqlite> .read "C:/Users/jrhma/OneDrive/Documents/sqlite/Project00008/sql/queries.sql"
 
-📊 Query 1: Total Purchase Amount per Customer
+📊 Query 1: 
 
--- Total purchase amount per customer
-SELECT customer_name, SUM(amount) FROM purchases GROUP BY customer_name;
 
-### Total Purchase Amount per Customer
-| Customer       | Total Amount |
-|----------------|--------------|
-| Alice Johnson  | 339.99       |
-| Bob Smith      | 325.50       |
-| Carol Davis    | 300.00       |
-| Eva Brown      | 150.00       |
-| David Miller   | 45.75        |
+
+📊 Query 2: 
 
 Explanation:
-This query calculates the total purchase amount for each customer by summing all their transactions. It demonstrates the use of the SUM() function with GROUP BY to aggregate financial data, a common task in reporting and analytics. Recruiters will recognize this as a practical example of turning raw transaction records into meaningful business insights.
 
-📊 Query 2: Number of Transactions per Customer
 
--- Number of transactions per customer
-SELECT first_name, last_name, COUNT(*) FROM purchases GROUP BY first_name, last_name;
-
-### Number of Transactions per Customer
-| First Name | Last Name | Transaction Count |
-|------------|-----------|-------------------|
-| Alice      | Johnson   | 2                 |
-| Bob        | Smith     | 2                 |
-| Carol      | Davis     | 1                 |
-| David      | Miller    | 1                 |
-| Eva        | Brown     | 1                 |
+📊 Query 3: 
 
 Explanation:
-This query counts how many transactions each customer has made. It demonstrates grouping by individual names and applying the  function to show customer activity levels.
 
-📊 Query 3: Discounted Totals (50% Off Demo)
-
--- Discounted totals (50% off for demo)
-SELECT customer_name, SUM(amount) * 0.5 FROM purchases GROUP BY customer_name;
-
-### Discounted Totals (50% Off Demo)
-| Customer       | Discounted Total |
-|----------------|------------------|
-| Alice Johnson  | 169.995          |
-| Bob Smith      | 162.75           |
-| Carol Davis    | 300.00           |
-| Eva Brown      | 150.00           |
-| David Miller   | 45.75            |
-
-Explanation:
-This query applies a 50% discount to each customer’s total purchase amount. It demonstrates how SQL can be used for simple business logic calculations, such as promotions or pricing scenarios.
 
 ---
 
