@@ -1,21 +1,21 @@
-# Project 00003
+# Project 00008
 
 ## 📖 Overview
-Project 00003 is part of my SQL portfolio series.  
+Project 00008 is part of my SQL portfolio series.  
 It demonstrates structured database design, relational queries, and workflow organization using **SQLite**.  
 The goal is to make this project **easy to clone, run, and understand** for anyone reviewing my work.
 
 ---
 
 ## 🚀 Project Badges
-![Last Commit](https://img.shields.io/github/last-commit/jrhcorp2023Git/Project00003)
-![Repo Size](https://img.shields.io/github/repo-size/jrhcorp2023Git/Project00003)
+![Last Commit](https://img.shields.io/github/last-commit/jrhcorp2023Git/Project00008)
+![Repo Size](https://img.shields.io/github/repo-size/jrhcorp2023Git/Project00008)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
-![GitHub Stars](https://img.shields.io/github/stars/jrhcorp2023Git/Project00003?style=social)
-![GitHub Forks](https://img.shields.io/github/forks/jrhcorp2023Git/Project00003?style=social)
-![Top Language](https://img.shields.io/github/languages/top/jrhcorp2023Git/Project00003)
-![GitHub Commit Activity](https://img.shields.io/github/commit-activity/m/jrhcorp2023Git/Project00003)
+![GitHub Stars](https://img.shields.io/github/stars/jrhcorp2023Git/Project00008?style=social)
+![GitHub Forks](https://img.shields.io/github/forks/jrhcorp2023Git/Project00008?style=social)
+![Top Language](https://img.shields.io/github/languages/top/jrhcorp2023Git/Project00008)
+![GitHub Commit Activity](https://img.shields.io/github/commit-activity/m/jrhcorp2023Git/Project00008)
 
 ---
 
